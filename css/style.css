@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+h1 {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #ffffff;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+body {
+    color: grey;
+    margin: 0;
+}
+
+[role="banner"] {
+    padding: 80px;
+    text-align: center;
+    background: green;
+    color: green;
+    background: url(../img/huntington.png);
+}
+
+h2 {
+    background: url(../img/zen.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: relative;
+    font-family: 'Satisfy', cursive;
+    font-size: 16px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #FFFFFF;
+    align-items: center;
+    margin-left: 40%;
+    margin-right: 20%;
+    max-width: 240px;
+    text-align: right;
+}
+
+.participation {
+    background: url(../img/bamboo.png);
+    background-color: rgb(123, 149, 120);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'IBM Plex Mono', monospace;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+    padding: 1vh;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 150px;
+    /* color: grey; */
+    margin-left: 80px;
+    font-size: 14px;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 150px;
+    margin-left: 80px;
+    color: black;
+    size: 15px;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.benefits {
+    background: url(../img/bamboo.png);
+    background-color: rgb(123, 149, 120);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'IBM Plex Mono', monospace;
+    color: #FFFFFF;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    padding: 1vh;
+    margin-top: 0px;
+}
+
+.intro {
+    font-family: 'IBM Plex Mono', monospace;
+    color: grey;
+}
+
+.summary {
+    margin-top: 20px;
+}
+
+[role="contentinfo"] {
+    background-color: rgb(123, 149, 120);
+    text-align: center;
+    padding: 8vh;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.intro a,
+.participation a,
+.benefits a,
+.requirements a {
+    color: rgb(3, 48, 5);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.requirements [href="http://www.mezzoblue.com/"] {
+    color: white;
+    font-family: 'Satisfy', cursive;
+    font-size: 32px;
+}
+
+.requirements [href="http://www.mediatemple.net/"] {
+    color: white;
+    font-family: 'Satisfy', cursive;
+    font-size: 32px;
+}
+
+.requirements [href="http://www.amazon.com/exec/obidos/ASIN/0321303474/mezzoblue-20/"] {
+    color: white;
+    font-family: 'Satisfy', cursive;
+    font-size: 32px;
+}
+
+footer {
+    background-color: rgb(50, 75, 47);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    padding: 1vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+[href="http://validator.w3.org/check/referer"] {
+    color: white;
+    font-size: 40px;
+    padding: 2vh;
+}
+
+[href="http://jigsaw.w3.org/css-validator/check/referer"] {
+    color: white;
+    font-size: 40px;
+    padding: 2vh;
+}
+
+[href="http://creativecommons.org/licenses/by-nc-sa/3.0/"] {
+    color: white;
+    font-size: 40px;
+    padding: 2vh;
+}
+
+[href="http://mezzoblue.com/zengarden/faq/#aaa"] {
+    color: white;
+    font-size: 40px;
+    padding: 2vh;
+}
+
+[href="https://github.com/mezzoblue/csszengarden.com"] {
+    color: white;
+    font-size: 40px;
+    padding: 2vh;
+}
+
+footer a:hover {
+    color: grey;
+}
+
+.zen-resources ul {
+    background: url(../img/bamboo.png);
+    background-color: rgb(123, 149, 120);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'IBM Plex Mono', monospace;
+    color: #FFFFFF;
+    padding: 2vh;
+    columns: 2;
+    line-height: 40px;
+    text-align: center;
+    column-gap: 0;
+    margin: 0;
+}
+
+.design-selection ul {
+    background-color: rgb(150, 214, 162);
+    columns: 2;
+    column-gap: 0;
+    color: rgb(0, 0, 0);
+    list-style-type: none;
+    text-align: center;
+    line-height: 10px;
+    margin: 0;
+}
+
+.design-archives ul {
+    background-color: rgb(150, 214, 162);
+    columns: 2;
+    column-gap: 0;
+    color: rgb(0, 0, 0);
+    list-style-type: none;
+    text-align: center;
+    line-height: 10px;
+    margin: 0;
+    line-height: 10vh;
+}
+
+.requirements [href="http://creativecommons.org/licenses/by-nc-sa/3.0/"] {
+    color: grey;
+    font-size: 15px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.select,
+.archives,
+.resources {
+    display: none;
+}
+
+.next a,
+.viewall a,
+.designer-name a {
+    font-family: 'IBM Plex Mono', monospace;
+    color: grey;
+    font-size: 12px;
+}
+
+.next,
+.viewall,
+.designer-name {
+    font-family: 'IBM Plex Mono', monospace;
+    color: grey;
+    font-size: 12px;
+}
+
+.design-name {
+    font-family: 'IBM Plex Mono', monospace;
+    color: black;
+    font-size: 14px;
+}
+
+.zen-translations a,
+.zen-submit a,
+.zen-faq a,
+.css-resources a,
+.view-css a {
+    color: rgb(3, 48, 5);
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.design-selection ul li {
+    padding: 20px;
+    border-bottom: solid;
+    border-color: grey;
+    /* box-shadow: 0px 1px rgb(230, 226, 226); */
+}
